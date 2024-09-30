@@ -1,0 +1,25 @@
+/*    ----CSS-Demo______*/
+/* color theme */
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+body{
+ 
+}
+
+main{
+
+
+}
+header.primary {
+    background-color: #3b638b;
+    color: #ffffff;
+    text-align: center;
+}
+
+
