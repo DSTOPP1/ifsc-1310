@@ -53,7 +53,9 @@ header nav a {
 header nav a:hover {
   color: #ffcc00;
 }
-
+a:visited {
+  color:green
+}
 /* Main content styling */
 main {
   margin: 2rem auto;
