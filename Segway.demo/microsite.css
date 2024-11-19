@@ -19,6 +19,8 @@ header {
   background-color: #005b99;
   color: white;
   text-align: center;
+  width: 100%;
+  max-width:inherit;
   padding: 30px 15px;
   border-bottom: 4px solid #003d66;
 }
@@ -96,6 +98,8 @@ main ul li {
 footer {
   text-align: center;
   background: #005b99;
+  width: 100%;
+  max-width:inherit;
   color: white;
   padding: 10px 0;
   margin-top: 20px;
