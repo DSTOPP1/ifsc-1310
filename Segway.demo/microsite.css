@@ -37,14 +37,21 @@ header .tagline {
 header nav {
   margin-top: 1rem;
 }
+.navbar ul{
+  list-style-type: none;
+  background-color: transparent;
+  padding: 0%;
+  margin: 0;
 
-header nav a {
-  color: gray;
-  text-decoration:red ;
-  margin: 0 1rem;
-  font-weight: bold;
-  transition: color 0.3s ease;
 }
+.navbar a {
+  color: #333;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
 
 header nav a:hover {
   color: #ffcc00;
