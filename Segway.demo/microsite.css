@@ -39,7 +39,7 @@ header nav {
 }
 
 header nav a {
-  color: #fff;
+  color: gray;
   text-decoration: none;
   margin: 0 1rem;
   font-weight: bold;
