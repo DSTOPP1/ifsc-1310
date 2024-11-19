@@ -1,5 +1,5 @@
 /* General reset for consistency across browsers */
-* {
+* a, body, img, footer, header, h1, h2, h3, p, nav {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,9 +15,7 @@ body {
 
 /* Header styling */
 header {
-  background-size: initial;
-  background-repeat: repeat;
-  background-image:url(assets/segway_color_logo.gif)
+
   color: #fff;
   padding: 1rem 0;
   text-align: center;
