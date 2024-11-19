@@ -19,8 +19,8 @@ header {
   background-color: #005b99;
   color: white;
   text-align: center;
-width: 100%;
-max-width:inherit;
+  width: 100%;
+  max-width:inherit;
   padding: 20px 10px;
   border-bottom: 4px solid #003d66;
 }
