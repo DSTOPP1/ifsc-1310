@@ -42,6 +42,7 @@ header nav {
   background-color: transparent;
   padding: 0%;
   margin: 0;
+  overflow:hidden;
 
 }
 .navbar a {
@@ -51,8 +52,9 @@ header nav {
   display: block;
   text-align: center;
 }
-
-
+.navbar li{
+  float: left;
+}
 header nav a:hover {
   color: #ffcc00;
 }
