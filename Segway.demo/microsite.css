@@ -15,11 +15,11 @@ body {
 
 /* Header styling */
 header {
-
-  color: #fff;
+  background-color: #fff;
   padding: 1rem 0;
   text-align: center;
   border-bottom: 4px solid #004466;
+  background-image: url(assets/segway_color_logo.gif);
 }
 
 
