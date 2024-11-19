@@ -15,7 +15,7 @@ body {
 
 /* Header styling */
 header {
-  background-color: #006699;
+  background-image:url(assets/segway_color_logo.gif)
   color: #fff;
   padding: 1rem 0;
   text-align: center;
