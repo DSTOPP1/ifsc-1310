@@ -1,4 +1,3 @@
-/* Reset default margin and padding */
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +12,17 @@
     line-height: 1.6;
     padding: 20px;
     font-size: 16px;
+  }
+  
+  /* Container with a box around the content */
+  .container {
+    max-width: 800px; /* Set a maximum width */
+    margin: 0 auto; /* Center the container */
+    padding: 30px; /* Space inside the box */
+    background-color: #fff; /* White background for the box */
+    border: 1px solid #ddd; /* Light border around the content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
   }
   
   /* Header Styling */
