@@ -15,12 +15,13 @@ body {
 
 /* Header Styles */
 header {
-  background: url(assets/segway_color_logo.gif) no-repeat center;
-  background-size: contain;
+  background: url(assets/segway_color_logo.gif) no-repeat center top;
+  background-size: cover; /* Ensures the background scales properly */
   color: #fff;
-  padding: 4rem 2rem; /* Adjusted padding to give space for text */
+  padding: 6rem 2rem 2rem; /* Adds extra space for the logo and text */
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative; /* Ensures contained layout for navbar */
 }
 
 header img {
@@ -35,16 +36,28 @@ header h1 {
 header .tagline {
   font-style: italic;
   font-size: 1.2rem;
+  margin-bottom: 1rem;
 }
 
+/* Navbar Styles */
 .navbar {
-  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for better visibility */
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  position: absolute; /* Positioned within the header */
+  bottom: -1.5rem; /* Moves navbar slightly outside the header */
+  left: 50%;
+  transform: translateX(-50%);
+  width: fit-content;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .navbar a {
   text-decoration: none;
   color: #fff;
-  margin: 0 1rem;
   font-weight: bold;
   transition: color 0.3s;
 }
@@ -57,7 +70,7 @@ header .tagline {
 main {
   padding: 2rem;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 3rem auto; /* Adds space for the navbar overlap */
   background: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -103,7 +116,7 @@ footer a:hover {
 /* Responsive Design */
 @media (max-width: 768px) {
   header {
-      padding: 2rem 1rem; /* Adjusted padding for smaller screens */
+      padding: 4rem 1rem 1rem; /* Adjusted padding for smaller screens */
   }
 
   header h1 {
@@ -111,7 +124,8 @@ footer a:hover {
   }
 
   .navbar {
-      margin-top: 0.5rem;
+      bottom: -1rem; /* Adjusted for smaller screens */
+      padding: 0.4rem 0.8rem;
   }
 
   .navbar a {
