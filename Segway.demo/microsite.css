@@ -1,143 +1,123 @@
-/* General Reset */
-* {
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
   color: #333;
-  background-color: #f9f9f9;
-  margin: 0;
+  line-height: 1.6;
+  background-color: #f4f4f4;
 }
 
-/* Header Styles */
+/* Header */
 header {
-  background: url(assets/segway_color_logo.gif) no-repeat center top;
-  background-size: cover; /* Scales the image appropriately */
+  background-color: #0077b6;
+  color: #fff;
   text-align: center;
-  color: white;
-  padding: 4rem 2rem; /* Adequate spacing for content */
-  position: relative; /* Ensures navbar is positioned relative to the header */
-  border-bottom: 4px solid #0077b6;
+  padding: 20px 0;
+}
+
+header img {
+  max-width: 120px;
 }
 
 header h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
+  margin: 10px 0 5px;
+  font-size: 2rem;
 }
 
 header .tagline {
   font-style: italic;
   font-size: 1.2rem;
-  margin-bottom: 1rem;
-  color: #caf0f8;
 }
 
-/* Navbar Styles */
-.navbar {
+/* Navigation */
+nav {
+  background: #023e8a;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
-  gap: 1.5rem;
-  background: #0077b6; /* Consistent branding color */
-  padding: 0.8rem 1rem;
-  border-radius: 8px;
-  position: absolute; /* Positioned relative to the header */
-  bottom: -1.5rem; /* Pulls navbar slightly outside header */
-  left: 50%;
-  transform: translateX(-50%);
-  width: fit-content;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.navbar a {
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
   text-decoration: none;
-  color: white;
-  font-weight: bold;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
   transition: background 0.3s ease;
 }
 
-.navbar a:hover {
+nav ul li a:hover {
   background: #00b4d8;
 }
 
-/* Main Content */
+/* Main Section */
 main {
-  max-width: 1200px;
-  margin: 3rem auto;
-  background: white;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 900px;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  padding: 2rem;
 }
 
 main h2 {
-  font-size: 2rem;
   color: #0077b6;
-  border-bottom: 2px solid #00b4d8;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
 }
 
-main ul {
-  list-style-type: square;
-  margin-left: 1.5rem;
-  color: #555;
+main .cta {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  background: #00b4d8;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
 }
 
-main ul li {
-  margin: 0.5rem 0;
+main .cta:hover {
+  background: #0077b6;
 }
 
-main p {
-  margin-bottom: 1rem;
-  color: #444;
+/* FAQ Items */
+.faq-item {
+  margin-bottom: 20px;
 }
 
-/* Footer Styles */
+.faq-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #0077b6;
+}
+
+.faq-item p {
+  margin: 0;
+}
+
+/* Footer */
 footer {
   text-align: center;
-  background: #0077b6;
-  color: white;
-  padding: 1rem;
+  padding: 10px 0;
+  background: #023e8a;
+  color: #fff;
   font-size: 0.9rem;
-  margin-top: 2rem;
 }
 
 footer a {
-  color: #caf0f8;
+  color: #00b4d8;
   text-decoration: none;
-  font-weight: bold;
 }
 
 footer a:hover {
   text-decoration: underline;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  header {
-      padding: 3rem 1rem;
-  }
-
-  header h1 {
-      font-size: 2rem;
-  }
-
-  .navbar {
-      bottom: -1rem;
-  }
-
-  main {
-      padding: 1.5rem;
-  }
-
-  main h2 {
-      font-size: 1.8rem;
-  }
 }
