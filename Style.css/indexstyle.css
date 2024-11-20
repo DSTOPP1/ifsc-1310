@@ -1,0 +1,60 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Light background */
+    color: #333; /* Dark text for readability */
+    line-height: 1.6;
+    padding: 20px;
+    font-size: 16px;
+  }
+  
+  /* Header Styling */
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #222; /* Dark color for contrast */
+  }
+  
+  /* Navigation Styling */
+  nav {
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav li {
+    margin: 15px 0;
+  }
+  
+  nav a {
+    color: #3498db; /* Blue color for links */
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  nav a:hover {
+    color: #2980b9; /* Darker blue on hover */
+    transform: translateY(-3px); /* Slight lift effect */
+  }
+  
+  /* Add some spacing and alignment */
+  ul {
+    padding-left: 0;
+  }
