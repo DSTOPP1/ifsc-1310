@@ -63,12 +63,12 @@ header .tagline {
 
 /* Main Content Styling */
 main {
-  max-width: 800px;
-  margin: 20px auto;
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 800px; /* Limits the width to ensure readability */
+  margin: 20px auto; /* Centers the content on the page */
+  background: white; /* Sets a clean background color for the content box */
+  padding: 20px; /* Adds spacing inside the box */
+  border-radius: 8px; /* Softens the edges for a modern look */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
 }
 
 main h2 {
