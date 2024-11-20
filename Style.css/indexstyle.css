@@ -4,28 +4,28 @@
     box-sizing: border-box;
   }
   
-  /* Body styling */
+  
   body {
     font-family: 'Arial', sans-serif;
-    background-color: #f5f5f5; /* Light background */
-    color: #333; /* Dark text for readability */
+    background-color: #f5f5f5; 
+    color: #333; 
     line-height: 1.6;
     padding: 20px;
     font-size: 16px;
   }
   
-  /* Container with a box around the content */
+  
   .container {
-    max-width: 800px; /* Set a maximum width */
-    margin: 0 auto; /* Center the container */
-    padding: 30px; /* Space inside the box */
-    background-color: #fff; /* White background for the box */
-    border: 1px solid #ddd; /* Light border around the content */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 30px; 
+    background-color: #fff; 
+    border: 1px solid gray;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
   }
   
-  /* Header Styling */
+  
   header {
     text-align: center;
     margin-bottom: 40px;
@@ -34,10 +34,10 @@
   header h1 {
     font-size: 36px;
     font-weight: bold;
-    color: #222; /* Dark color for contrast */
+    color: #222; 
   }
   
-  /* Navigation Styling */
+  
   nav {
     text-align: center;
   }
@@ -51,7 +51,7 @@
   }
   
   nav a {
-    color: #3498db; /* Blue color for links */
+    color: #3498db; 
     font-size: 18px;
     text-decoration: none;
     padding: 10px;
@@ -60,11 +60,11 @@
   }
   
   nav a:hover {
-    color: #2980b9; /* Darker blue on hover */
-    transform: translateY(-3px); /* Slight lift effect */
+    color: #2980b9; 
+    transform: translateY(-3px); 
   }
   
-  /* Add some spacing and alignment */
+ 
   ul {
     padding-left: 0;
   }
