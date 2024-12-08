@@ -128,7 +128,7 @@ main img {
     height: auto;
     margin: 20px 0;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* FAQ Page Specific */
@@ -145,7 +145,7 @@ main h3 {
     height: auto;
     border-radius: 8px;
     margin: 20px 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer Styles */
