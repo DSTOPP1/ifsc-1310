@@ -27,9 +27,11 @@ header {
 }
 
 header img {
-    max-width: 300px; 
+    width: 100%; /* Ensures the image fills the width of the container */
+    height: 300px; /* Sets the height for the circular border */
+    border-radius: 50%; /* Keeps the circular shape */
+    object-fit: cover; /* Ensures the image covers the circle without distortion */
     margin-bottom: 50px;
-    border-radius: 50%;
     border: 3px solid white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
@@ -131,6 +133,23 @@ main img {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Container for images */
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Adjust gap between images */
+    margin: 20px 0;
+}
+
+/* Style for the images inside the container */
+.image-container img {
+    flex: 1; /* Ensures both images take up equal space */
+    max-width: 48%; /* Adjusts image width to fit side-by-side */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 /* FAQ Page Specific */
 main h3 {
     color: #007acc;
@@ -194,6 +213,7 @@ button:hover {
 
     header img {
         max-width: 80px;
+        height: 80px;
     }
 
     .navbar {
@@ -207,5 +227,15 @@ button:hover {
 
     footer {
         font-size: 0.8rem;
+    }
+
+    /* For smaller screens, stack images vertically */
+    .image-container {
+        flex-direction: column;
+    }
+
+    .image-container img {
+        max-width: 100%;
+        margin-bottom: 20px;
     }
 }
