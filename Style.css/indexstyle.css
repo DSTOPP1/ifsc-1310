@@ -29,7 +29,7 @@ header h1 {
 
 /* Navigation Styling */
 nav ul {
-  list-style: none;
+  list-style: column;
   margin: 20px 0;
   padding: 0;
   text-align: center;
@@ -48,6 +48,7 @@ nav ul li a {
 
 nav ul li a:hover {
   text-decoration: underline;
+  color: purple;
 }
 
 /* Underlined h2 and h3 */
