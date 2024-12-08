@@ -27,17 +27,17 @@ header {
 }
 
 header img {
-    width: 300px; /* Fixes the size of the image */
-    height: 300px; /* Fixes the height of the image to match the width */
-    object-fit: cover; /* Ensures the image covers the square without distortion */
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover; 
     margin-bottom: 50px;
-    border: 5px solid transparent; /* Creates a transparent border for effect */
-    background-image: linear-gradient(45deg, #ffcc00, #ff6600); /* Gradient border effect */
-    background-origin: border-box; /* Ensures the background gradient is applied to the border */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Adds a shadow effect around the image */
-    display: block; /* Ensures the image is treated as a block element */
+    border: 5px solid transparent; 
+    background-image: linear-gradient(45deg, #ffcc00, #ff6600);
+    background-origin: border-box; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+    display: block; 
     margin-left: auto;
-    margin-right: auto; /* Centers the image horizontally */
+    margin-right: auto; 
 }
 
 header h1 {
@@ -128,7 +128,7 @@ main ul li:before {
     left: 0;
 }
 
-/* Specific for Concept Centaur Images */
+
 main img {
     max-width: 100%;
     height: auto;
@@ -141,20 +141,20 @@ main img {
 .image-container {
     display: flex;
     justify-content: space-between;
-    gap: 20px; /* Adjust gap between images */
+    gap: 20px; 
     margin: 20px 0;
 }
 
-/* Style for the images inside the container */
+
 .image-container img {
-    flex: 1; /* Ensures both images take up equal space */
-    max-width: 48%; /* Adjusts image width to fit side-by-side */
+    flex: 1; 
+    max-width: 48%; 
     height: auto;
     border-radius: 8px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* FAQ Page Specific */
+/* FAQ Page */
 main h3 {
     color: #007acc;
     border-bottom: 1px dashed #e1e1e1;
@@ -162,7 +162,7 @@ main h3 {
     margin-bottom: 15px;
 }
 
-/* About Page Specific */
+/* About Page*/
 .team {
     max-width: 100%;
     height: auto;
@@ -209,7 +209,6 @@ button:hover {
     background-color: #003d66;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     header h1 {
         font-size: 2.2rem;
@@ -233,7 +232,7 @@ button:hover {
         font-size: 0.8rem;
     }
 
-    /* For smaller screens, stack images vertically */
+    
     .image-container {
         flex-direction: column;
     }
