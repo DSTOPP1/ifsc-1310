@@ -3,39 +3,40 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
-  }
-  
-  .container {
+}
+
+.container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-  }
-  
-  /* Header Styling with Transparent Background */
-  header {
+}
+
+/* Header Styling with Transparent Background */
+header {
     position: relative;
     width: 100%;
-    height: 250px; /* Adjust this value based on the size of your header image */
+    min-height: 250px; /* Ensures the header height is not less than 250px */
     background-color: rgba(0, 0, 0, 0); /* Transparent background */
     overflow: hidden;
-  }
-  
-  header img {
+}
+
+header img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* This ensures the image covers the area without stretching */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
     object-position: center; /* Centers the image */
-  }
-  
-  header h1 {
+}
+
+/* Header Text Styling */
+header h1 {
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -44,41 +45,41 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a shadow for better contrast */
     margin-bottom: 0;
-  }
-  
-  /* Navigation Styling */
-  nav ul {
+}
+
+/* Navigation Styling */
+nav ul {
     list-style: none;
     margin: 20px 0;
     padding: 0;
     text-align: center;
-  }
-  
-  nav ul li {
+}
+
+nav ul li {
     display: inline-block;
     margin-right: 20px;
-  }
-  
-  nav ul li a {
+}
+
+nav ul li a {
     text-decoration: none;
     color: #007bff;
     font-size: 1.2rem;
-  }
-  
-  nav ul li a:hover {
+}
+
+nav ul li a:hover {
     text-decoration: underline;
-  }
-  
-  /* Underlined h2 and h3 */
-  h2, h3 {
+}
+
+/* Underlined h2 and h3 */
+h2, h3 {
     position: relative;
     font-size: 1.8rem;
     font-weight: 600;
     margin-bottom: 10px;
     padding-bottom: 5px;
-  }
-  
-  h2::after, h3::after {
+}
+
+h2::after, h3::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -86,27 +87,31 @@
     background-color: #007bff;
     bottom: 0;
     left: 0;
-  }
-  
-  /* Styling Paragraphs */
-  p {
+}
+
+/* Styling Paragraphs */
+p {
     font-size: 1rem;
     margin-bottom: 15px;
     color: #555;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
     .container {
-      width: 95%;
+        width: 95%;
     }
-  
+
     nav ul li {
-      display: block;
-      margin-bottom: 10px;
+        display: block;
+        margin-bottom: 10px;
     }
-  
+
     header h1 {
-      font-size: 2rem;
+        font-size: 2rem;
     }
-  }
+
+    header {
+        min-height: 200px; /* Adjust header height for smaller screens */
+    }
+}
