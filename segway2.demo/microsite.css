@@ -30,6 +30,7 @@ header img {
     width: 300px; 
     height: 300px;  
     margin-bottom: 50px;
+    object-fit: fill;
     border: 5px solid transparent; 
     background-origin: border-box; 
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.9); 
