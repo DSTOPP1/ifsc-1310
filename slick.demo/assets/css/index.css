@@ -4,6 +4,8 @@ body{
 
 img{
     max-width:100%;
+    display: block;
+    align-self: center;
 }
 
 .container{
