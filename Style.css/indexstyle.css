@@ -22,9 +22,14 @@ body {
 /* Header styling */
 header h1 {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 3rem; /* Increased font size for more prominence */
+  font-weight: 700; /* Stronger font weight for a modern feel */
   color: #333;
   margin-bottom: 20px;
+  text-transform: uppercase; /* Make the text all caps for modern appeal */
+  letter-spacing: 2px; /* Add some space between letters */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Soft shadow for a 3D effect */
+  padding: 10px; /* Add padding around the text for more breathing space */
 }
 
 /* Navigation Styling */
@@ -79,8 +84,8 @@ p {
 
 /* Style for the main element with a modern shadow border */
 main {
-  border: 20px solid #000000; /* Dark border around the main element */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 1), 0 4px 20px rgba(0, 0, 0, 1); /* Multi-layered shadow effect for depth */
+  border: 5px solid #FFFFFF; /* Dark border around the main element */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2), 0 4px 20px rgba(0, 0, 0, 0.5); /* Multi-layered shadow effect for depth */
   padding: 20px; /* Padding inside the main element */
   border-radius: 20px; /* Rounded corners for a softer look */
   background-color: #fff; /* Optional: sets a white background to make the content stand out */
