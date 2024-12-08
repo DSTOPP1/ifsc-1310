@@ -28,7 +28,9 @@ header {
 
 header img {
     width: 100%; /* Ensures the image fills the width of the container */
-    height: 300px; /* Sets the height for the circular border */
+    height: 100%; /* Ensures the image fills the height of the container */
+    max-width: 300px; /* Limits the width of the image */
+    max-height: 300px; /* Limits the height of the image */
     border-radius: 50%; /* Keeps the circular shape */
     object-fit: cover; /* Ensures the image covers the circle without distortion */
     margin-bottom: 50px;
