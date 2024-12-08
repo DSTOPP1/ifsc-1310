@@ -1,4 +1,4 @@
-/* General Reset */
+* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -16,19 +16,16 @@ body {
 
 /* Header Styles */
 header {
-    background: linear-gradient(to right, #005b99, #007acc);
+    background: linear-gradient(to right, #005b99, #007acc), url(assets/segway_color_logo.gif) center/cover no-repeat;
     color: #fff;
     text-align: center;
-    padding: 20px 10px;
+    padding: 40px 10px;
     border-bottom: 4px solid #003d66;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 header img {
-    max-width: 120px;
-    margin-bottom: 15px;
-    border-radius: 50%;
-    border: 3px solid #fff;
+    display: none; /* Hide the image element since it's now a background */
 }
 
 header h1 {
