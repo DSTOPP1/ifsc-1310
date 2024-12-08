@@ -32,6 +32,7 @@ header img {
     margin-bottom: 50px;
     object-fit: fill;
     border: 5px solid transparent; 
+    background-image: linear-gradient(45deg, #00eeff, #00c3ff);
     background-origin: border-box; 
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.9); 
     display: block; 
